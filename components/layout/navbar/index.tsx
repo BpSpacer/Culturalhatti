@@ -24,7 +24,8 @@ export default async function Navbar() {
           <Link href="/" className="mr-2 flex w-full items-center justify-center md:w-auto lg:mr-6">
             <LogoSquare />
             <div className="ml-2 flex-none text-sm font-medium uppercase md:hidden lg:block">
-              {SITE_NAME}
+              {/* {SITE_NAME} */}
+              <h1>Cultural Hatti</h1>
             </div>
           </Link>
           {menu.length ? (
